@@ -1,10 +1,8 @@
-
-=======
 # Gamification-Framework
 
 ## Database
 The database that is used is PostgreSQL 9.5. SQL script to create the database and initialize the framework is located in psql folder.
-The default framework database name is 'gamification'and user name is 'gamification'. Each created application will have its own schema. A schema named 'manager' is used to maintain application and user information globally. A schema named 'global_leaderboard' contains global leaderboard data with the table name in the schema is community_type name.
+The default framework database name is `gamification` and user name is `gamification`. Each created application will have its own schema. A schema named `manager` is used to maintain application and user information globally. A schema named `global_leaderboard` contains global leaderboard data with the table name in the schema is community_type name.
 
 ## Building the Projects
 
